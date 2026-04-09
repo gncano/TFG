@@ -24,7 +24,6 @@ public class PlayerControllerNew : MonoBehaviour
         Cursor.visible = false;
     }
 
-    // Estas dos funciones son las que Player Input busca
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
@@ -40,14 +39,13 @@ public class PlayerControllerNew : MonoBehaviour
         Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
         controller.Move(move * speed * Time.deltaTime);
 
-        // Gravedad
+        
         if (controller.isGrounded && velocity.y < 0)
             velocity.y = -2f;
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
-        // Rotación de cámara
         float mouseX = lookInput.x * mouseSensitivity;
         float mouseY = lookInput.y * mouseSensitivity;
 
