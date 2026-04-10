@@ -13,7 +13,7 @@ public class PlayerInteraction : MonoBehaviour
 
     [Header("Mirar")]
     private float viewTimer = 0f;
-    public float viewTimerRequired = 3f;
+    public float viewTimerRequired = 10f;
 
     private Interactable currentInteractable;
 
@@ -36,6 +36,7 @@ public class PlayerInteraction : MonoBehaviour
                 if (Keyboard.current.eKey.wasPressedThisFrame)
                 {
                     interactable.Interact();
+                    interactable.Interact(gameObject);
                     holdTimer = 0f; 
                 }
 
@@ -60,7 +61,7 @@ public class PlayerInteraction : MonoBehaviour
                 Debug.Log("entra en rango de vista");
                 if (viewTimer >= viewTimerRequired)
                 {
-                    interactable.Interact();
+                    interactable.Look();
                     viewTimer = 0f;
                 }
             }

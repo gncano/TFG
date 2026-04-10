@@ -3,7 +3,7 @@ using UnityEngine;
 public class AnomaliaLuz : Interactable
 {
     public Light luz;
-    public override void Interact()
+    public override void Look()
     {
         if (luz != null)
         {

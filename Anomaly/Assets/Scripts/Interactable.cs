@@ -7,6 +7,15 @@ public class Interactable : MonoBehaviour
     {
         Debug.Log("Interacción simple en " + gameObject.name);
     }
+    public virtual void Interact(GameObject player)
+    {
+        Debug.Log("Interacción simple en " + gameObject.name);
+    }
+
+    public virtual void Look()
+    {
+        Debug.Log("El jugador ha mirado el tiempo necesario"+ gameObject.name);
+    }
 
     // Mantener pulsado (cada frame mientras se mantiene)
     public virtual void HoldInteract()
@@ -19,4 +28,5 @@ public class Interactable : MonoBehaviour
     {
         Debug.Log("Interacción completa en " + gameObject.name);
     }
+
 }
