@@ -61,11 +61,28 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\RecogerCrucifijo.cs" />
+    <Compile Include="Assets\Scripts\ResolverJigsaw.cs" />
+    <Compile Include="Assets\Scripts\RecogerSpray.cs" />
+    <Compile Include="Assets\Scripts\LimpiarCaraVentana.cs" />
+    <Compile Include="Assets\Scripts\RecogerMonedas.cs" />
+    <Compile Include="Assets\Scripts\PuertaVagonDoble.cs" />
+    <Compile Include="Assets\Scripts\RadiocassetteInteractable.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Scripts\TriggerSiluetas.cs" />
+    <Compile Include="Assets\Scripts\AnomaliaLuz.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\RecogerLlave.cs" />
     <Compile Include="Assets\Scripts\AnomaliaCartel.cs" />
+    <Compile Include="Assets\Scripts\ControlMiradaSiluetas.cs" />
+    <Compile Include="Assets\Scripts\SiluetaFantasma.cs" />
+    <Compile Include="Assets\Scripts\MaquinaExpendedora.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\InventarioJugador.cs" />
     <Compile Include="Assets\Scripts\AnomaliaPapelera.cs" />
+    <Compile Include="Assets\Scripts\TriggerVagon.cs" />
+    <Compile Include="Assets\Scripts\RecogerTrapo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

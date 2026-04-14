@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
+    public float holdTime = 2f; // valor por defecto
+
     // Interacción normal (pulso)
     public virtual void Interact()
     {
