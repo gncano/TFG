@@ -12,7 +12,7 @@ public class PlayerInteraction : MonoBehaviour
 
     [Header("Mirar")]
     private float viewTimer = 0f;
-    public float viewTimerRequired = 3f;
+    public float viewTimerRequired = 10f;
 
     private Interactable currentInteractable;
 
@@ -74,7 +74,7 @@ public class PlayerInteraction : MonoBehaviour
 
                 if (viewTimer >= viewTimerRequired)
                 {
-                    interactable.Interact();
+                    interactable.Look();
                     viewTimer = 0f;
                 }
             }
