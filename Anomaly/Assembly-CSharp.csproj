@@ -66,8 +66,10 @@
     <Compile Include="Assets\Scripts\RecogerSpray.cs" />
     <Compile Include="Assets\Scripts\LimpiarCaraVentana.cs" />
     <Compile Include="Assets\Scripts\RecogerMonedas.cs" />
+    <Compile Include="Assets\Scripts\SonidoPuerta.cs" />
     <Compile Include="Assets\Scripts\PuertaVagonDoble.cs" />
     <Compile Include="Assets\Scripts\RadiocassetteInteractable.cs" />
+    <Compile Include="Assets\Scripts\Monstruo1.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\TriggerSiluetas.cs" />
     <Compile Include="Assets\Scripts\AnomaliaLuz.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="Assets\Scripts\MaquinaExpendedora.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\AnomaliaBurger.cs" />
     <Compile Include="Assets\Scripts\InventarioJugador.cs" />
     <Compile Include="Assets\Scripts\AnomaliaPapelera.cs" />
     <Compile Include="Assets\Scripts\TriggerVagon.cs" />
