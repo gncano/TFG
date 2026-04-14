@@ -4,13 +4,13 @@ public class Interactable : MonoBehaviour
 {
     public float holdTime = 2f; // valor por defecto
 
-    // Interacción normal (pulso)
+    // Interacción normal
     public virtual void Interact()
     {
         Debug.Log("Interacción simple en " + gameObject.name);
     }
 
-    // Mantener pulsado (cada frame mientras se mantiene)
+    // Mantener pulsado 
     public virtual void HoldInteract()
     {
        

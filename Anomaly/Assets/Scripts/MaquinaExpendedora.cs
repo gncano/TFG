@@ -102,7 +102,7 @@ public class MaquinaExpendedora : Interactable
         // Espera un poco antes de beber
         yield return new WaitForSeconds(0.8f);
 
-        // Sonido de beber/comer
+        // Sonido de beber
         if (audioSource != null && sonidoBeber != null)
         {
             audioSource.PlayOneShot(sonidoBeber);
