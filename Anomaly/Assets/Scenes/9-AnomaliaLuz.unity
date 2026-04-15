@@ -243,7 +243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136199453800288114, guid: 3a1c5c29e6d76ff4bba8c6b65bb38cad, type: 3}
       propertyPath: viewTimerRequired
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1136199453800288114, guid: 3a1c5c29e6d76ff4bba8c6b65bb38cad, type: 3}
       propertyPath: interactionDistance
@@ -5559,6 +5559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a76b60a580e9a428049cf3c3dd1e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomaliaLuz
+  holdTime: 2
   luz: {fileID: 1953061875}
 --- !u!108 &1953061875 stripped
 Light:

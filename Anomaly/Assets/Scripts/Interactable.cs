@@ -9,6 +9,7 @@ public class Interactable : MonoBehaviour
     {
         Debug.Log("Interacción simple en " + gameObject.name);
     }
+
     public virtual void Interact(GameObject player)
     {
         Debug.Log("Interacción simple en " + gameObject.name);

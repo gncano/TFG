@@ -3012,7 +3012,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2838725195277392084, guid: 516d36c21581b9c4c91550a67a24a90d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2098542210}
+      addedObject: {fileID: 2098542215}
   m_SourcePrefab: {fileID: 100100000, guid: 516d36c21581b9c4c91550a67a24a90d, type: 3}
 --- !u!1001 &1154103996
 PrefabInstance:
@@ -5622,7 +5622,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2838725195277392084, guid: 516d36c21581b9c4c91550a67a24a90d, type: 3}
   m_PrefabInstance: {fileID: 1143968710}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2098542210
+--- !u!114 &2098542215
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5634,6 +5634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 476f453ed5d4872438c7881a359effb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnomaliaBurger
+  holdTime: 2
 --- !u!4 &2103352415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6788971214409992186, guid: fe14fb56faa61da4492db493d526f325, type: 3}
