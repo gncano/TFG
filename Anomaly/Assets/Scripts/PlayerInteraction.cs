@@ -68,7 +68,7 @@ public class PlayerInteraction : MonoBehaviour
                     {
                         limpiarCara.ResetLimpieza();
                     }
-
+                    interactable.ResetHold();
                     holdTimer = 0f;
                 }
 

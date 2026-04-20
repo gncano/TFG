@@ -15,34 +15,36 @@ public class MaquinaExpendedora : Interactable
     [Header("Ajustes")]
     public float duracionLuz = 3f;
 
-    private bool puedeUsar = false;
+    [Header("Hold")]
+    public float tiempoMinimoParaMonedas = 0.2f;
+
     private bool usada = false;
     private bool sonidoMonedasReproducido = false;
+    private float tiempoManteniendo = 0f;
+
 
     public override void Interact()
     {
-        Debug.Log("He interactuado con la máquina correcta");
-
-        if (usada) return;
-
-        if (GameManager.instance.tieneMonedas)
-        {
-            puedeUsar = true;
-        }
-        else
-        {
-            Debug.Log("No tienes monedas");
-        }
+        // No hacemos nada al pulsar una vez
     }
 
     public override void HoldInteract()
     {
-        if (!puedeUsar || usada) return;
+        if (usada) return;
 
-        Debug.Log("Manteniendo E en la máquina");
+        if (!GameManager.instance.tieneMonedas)
+        {
+            return;
+        }
 
-        // Reproducir monedas solo una vez al empezar a mantener E
-        if (!sonidoMonedasReproducido && audioSource != null && sonidoMonedas != null)
+        tiempoManteniendo += Time.deltaTime;
+
+
+        // Solo reproducir monedas si realmente se está manteniendo un poco
+        if (!sonidoMonedasReproducido &&
+            tiempoManteniendo >= tiempoMinimoParaMonedas &&
+            audioSource != null &&
+            sonidoMonedas != null)
         {
             audioSource.PlayOneShot(sonidoMonedas);
             sonidoMonedasReproducido = true;
@@ -51,9 +53,13 @@ public class MaquinaExpendedora : Interactable
 
     public override void HoldCompleted()
     {
-        Debug.Log("HoldCompleted de la máquina");
+        if (usada) return;
 
-        if (!puedeUsar || usada) return;
+        if (!GameManager.instance.tieneMonedas)
+        {
+            Debug.Log("No tienes monedas");
+            return;
+        }
 
         usada = true;
 
@@ -63,6 +69,14 @@ public class MaquinaExpendedora : Interactable
         GameManager.instance.tieneMonedas = false;
 
         StartCoroutine(ActivarMaquina());
+    }
+
+    public override void ResetHold()
+    {
+        if (usada) return;
+
+        tiempoManteniendo = 0f;
+        sonidoMonedasReproducido = false;
     }
 
     IEnumerator ActivarMaquina()

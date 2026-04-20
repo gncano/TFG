@@ -33,4 +33,9 @@ public class Interactable : MonoBehaviour
         Debug.Log("Interacción completa en " + gameObject.name);
     }
 
+    // Cuando se suelta la E antes de completar
+    public virtual void ResetHold()
+    {
+    }
+
 }
