@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 2573989043341071513}
   - component: {fileID: 35229722237178747}
   - component: {fileID: 112187004727946888}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.611, y: 0.126, z: -20.634}
-  m_LocalScale: {x: 0.61, y: 0.9, z: 1}
+  m_LocalScale: {x: 0.61, y: 1.09, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2508306594698902641}
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 2333435025919987341}
   - component: {fileID: 5673535995604790975}
   - component: {fileID: 1625360654154091165}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Mira
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 8917309271080737998}
   - component: {fileID: 7427459970397459219}
   - component: {fileID: 6947719041488668551}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: punto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 2665718606888967453}
   - component: {fileID: 5949172577261663588}
   - component: {fileID: 1136199453800288114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -508,5 +508,4 @@ MonoBehaviour:
   interactionLayer:
     serializedVersion: 2
     m_Bits: 4294967295
-  holdTimeRequired: 2
   viewTimerRequired: 3

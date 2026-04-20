@@ -25,6 +25,8 @@ public class PlayerInteraction : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, interactionDistance, interactionLayer))
         {
+            Debug.Log("Raycast golpea a: " + hit.collider.name);
+
             Interactable interactable = hit.collider.GetComponent<Interactable>();
 
             if (interactable != null)
@@ -43,7 +45,7 @@ public class PlayerInteraction : MonoBehaviour
 
                 if (Keyboard.current.eKey.wasPressedThisFrame)
                 {
-                    interactable.Interact();
+                    interactable.Interact(gameObject);
                     holdTimer = 0f;
                 }
 

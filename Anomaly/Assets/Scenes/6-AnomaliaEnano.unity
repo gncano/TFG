@@ -2966,6 +2966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger
       objectReference: {fileID: 0}
+    - target: {fileID: 2838725195277392084, guid: 516d36c21581b9c4c91550a67a24a90d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9126817051775880164, guid: 516d36c21581b9c4c91550a67a24a90d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8
@@ -6203,6 +6207,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7164118397093317141, guid: 5e931bcff22cf1f45944d7a33b22c887, type: 3}
+      propertyPath: interactionDistance
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7164118397093317141, guid: 5e931bcff22cf1f45944d7a33b22c887, type: 3}
+      propertyPath: interactionLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7387219353221971312, guid: 5e931bcff22cf1f45944d7a33b22c887, type: 3}
       propertyPath: m_Name
       value: PlayerEnano
@@ -6256,6 +6268,6 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 432050899}
   - {fileID: 7951271349952077302}
+  - {fileID: 432050899}
   - {fileID: 1143968710}

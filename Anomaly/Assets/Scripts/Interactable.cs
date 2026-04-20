@@ -13,6 +13,7 @@ public class Interactable : MonoBehaviour
     public virtual void Interact(GameObject player)
     {
         Debug.Log("Interacción simple en " + gameObject.name);
+        Interact();
     }
 
     public virtual void Look()
