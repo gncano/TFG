@@ -7,9 +7,13 @@ public class PlayerInteraction : MonoBehaviour
     public float interactionDistance = 3f;        
     public LayerMask interactionLayer;            
 
-    [Header("Hold Interaction")]
+    [Header("Mantener pulsado")]
     public float holdTimeRequired = 2f;          
     private float holdTimer = 0f;
+
+    [Header("Mirar")]
+    private float viewTimer = 0f;
+    public float viewTimerRequired = 3f;
 
     private Interactable currentInteractable;
 
@@ -51,6 +55,13 @@ public class PlayerInteraction : MonoBehaviour
                 else
                 {
                     holdTimer = 0f; 
+                }
+                viewTimer += Time.deltaTime;
+                Debug.Log("entra en rango de vista");
+                if (viewTimer >= viewTimerRequired)
+                {
+                    interactable.Interact();
+                    viewTimer = 0f;
                 }
             }
             else
