@@ -73,7 +73,9 @@
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\TriggerSiluetas.cs" />
     <Compile Include="Assets\Scripts\AnomaliaLuz.cs" />
+    <Compile Include="Assets\Scripts\ArreglarVagonMovido.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ColocarMapa.cs" />
     <Compile Include="Assets\Scripts\RecogerLlave.cs" />
     <Compile Include="Assets\Scripts\AnomaliaCartel.cs" />
     <Compile Include="Assets\Scripts\ControlMiradaSiluetas.cs" />
@@ -83,8 +85,10 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\AnomaliaBurger.cs" />
     <Compile Include="Assets\Scripts\InventarioJugador.cs" />
+    <Compile Include="Assets\Scripts\ArreglarAsientosGirados.cs" />
     <Compile Include="Assets\Scripts\AnomaliaPapelera.cs" />
     <Compile Include="Assets\Scripts\TriggerVagon.cs" />
+    <Compile Include="Assets\Scripts\RecogerMapa.cs" />
     <Compile Include="Assets\Scripts\RecogerTrapo.cs" />
   </ItemGroup>
   <ItemGroup>
