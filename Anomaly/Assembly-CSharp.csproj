@@ -63,33 +63,75 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\RecogerCrucifijo.cs" />
     <Compile Include="Assets\Scripts\ResolverJigsaw.cs" />
+    <Compile Include="Assets\Scripts\GloboDesinfladoInteractuable.cs" />
     <Compile Include="Assets\Scripts\RecogerSpray.cs" />
+    <Compile Include="Assets\Scripts\TriggerSalidaNivel.cs" />
     <Compile Include="Assets\Scripts\LimpiarCaraVentana.cs" />
+    <Compile Include="Assets\Scripts\MandoTVInteractuable.cs" />
     <Compile Include="Assets\Scripts\RecogerMonedas.cs" />
     <Compile Include="Assets\Scripts\SonidoPuerta.cs" />
+    <Compile Include="Assets\Scripts\EstadoNivel.cs" />
+    <Compile Include="Assets\Scripts\NotaInteractuable.cs" />
     <Compile Include="Assets\Scripts\PuertaVagonDoble.cs" />
+    <Compile Include="Assets\Scripts\GameFlowManager.cs" />
     <Compile Include="Assets\Scripts\RadiocassetteInteractable.cs" />
     <Compile Include="Assets\Scripts\Monstruo1.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\TriggerSiluetas.cs" />
     <Compile Include="Assets\Scripts\AnomaliaLuz.cs" />
+    <Compile Include="Assets\Scripts\TelevisionInteractuable.cs" />
     <Compile Include="Assets\Scripts\ArreglarVagonMovido.cs" />
+    <Compile Include="Assets\Scripts\PayasoFinalInteractuable.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ColocarMapa.cs" />
+    <Compile Include="Assets\Scripts\MusicManager.cs" />
     <Compile Include="Assets\Scripts\RecogerLlave.cs" />
     <Compile Include="Assets\Scripts\AnomaliaCartel.cs" />
     <Compile Include="Assets\Scripts\ControlMiradaSiluetas.cs" />
     <Compile Include="Assets\Scripts\SiluetaFantasma.cs" />
     <Compile Include="Assets\Scripts\MaquinaExpendedora.cs" />
+    <Compile Include="Assets\Scripts\CartelNumeroNivel.cs" />
     <Compile Include="Assets\Scripts\PlayerInteraction.cs" />
+    <Compile Include="Assets\Scripts\ConfirmarSalidaNivel.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\TriggerAparicionNina.cs" />
     <Compile Include="Assets\Scripts\AnomaliaBurger.cs" />
     <Compile Include="Assets\Scripts\InventarioJugador.cs" />
     <Compile Include="Assets\Scripts\ArreglarAsientosGirados.cs" />
     <Compile Include="Assets\Scripts\AnomaliaPapelera.cs" />
     <Compile Include="Assets\Scripts\TriggerVagon.cs" />
     <Compile Include="Assets\Scripts\RecogerMapa.cs" />
+    <Compile Include="Assets\Scripts\NotaPantallaManager.cs" />
+    <Compile Include="Assets\Scripts\GloboInfladoInteractuable.cs" />
+    <Compile Include="Assets\Scripts\NivelTelevisionManager.cs" />
+    <Compile Include="Assets\Scripts\Nivel15PayasoManager.cs" />
     <Compile Include="Assets\Scripts\RecogerTrapo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Art\Horror\SH_VertexColorUnlit.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1156,8 +1198,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="glTFast.dots">
+      <HintPath>Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFast.Editor">
+      <HintPath>Library\ScriptAssemblies\glTFast.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
@@ -1170,6 +1220,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
@@ -1190,6 +1244,10 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline">
@@ -1220,12 +1278,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
@@ -1236,12 +1302,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="glTFast">
+      <HintPath>Library\ScriptAssemblies\glTFast.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Settings.Editor">

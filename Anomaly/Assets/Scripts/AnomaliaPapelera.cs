@@ -17,6 +17,15 @@ public class AnomaliaPapelera : Interactable
             resuelta = true;
 
             Debug.Log("Papelera colocada correctamente");
+
+            if (EstadoNivel.instancia != null)
+            {
+                EstadoNivel.instancia.MarcarAnomaliaResuelta();
+            }
+            else
+            {
+                Debug.LogWarning("No se encontró EstadoNivel en la escena.");
+            }
         }
     }
 }

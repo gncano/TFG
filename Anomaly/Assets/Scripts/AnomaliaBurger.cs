@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class AnomaliaBurger : Interactable
 {
+    private bool resuelta = false;
+
     public override void Interact(GameObject player)
     {
+        if (resuelta)
+            return;
+
         Debug.Log("Comida");
 
         if (player == null)
@@ -17,6 +22,17 @@ public class AnomaliaBurger : Interactable
         if (cc != null)
         {
             cc.radius = 0.5f;
+        }
+
+        resuelta = true;
+
+        if (EstadoNivel.instancia != null)
+        {
+            EstadoNivel.instancia.MarcarAnomaliaResuelta();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró EstadoNivel en la escena.");
         }
 
         Destroy(gameObject);

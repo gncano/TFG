@@ -27,5 +27,14 @@ public class ArreglarAsientosGirados : Interactable
         arreglado = true;
 
         Debug.Log("Asientos corregidos");
+
+        if (EstadoNivel.instancia != null)
+        {
+            EstadoNivel.instancia.MarcarAnomaliaResuelta();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró EstadoNivel en la escena.");
+        }
     }
 }

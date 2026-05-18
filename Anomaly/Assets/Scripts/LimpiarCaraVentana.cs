@@ -81,6 +81,15 @@ public class LimpiarCaraVentana : Interactable
 
         if (caraExterior != null)
             Destroy(caraExterior);
+
+        if (EstadoNivel.instancia != null)
+        {
+            EstadoNivel.instancia.MarcarAnomaliaResuelta();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró EstadoNivel en la escena.");
+        }
     }
 
     public void ResetLimpieza()

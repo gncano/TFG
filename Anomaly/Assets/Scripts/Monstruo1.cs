@@ -4,24 +4,51 @@ public class Monstruo1 : MonoBehaviour
 {
     public GameObject monstruo;
 
-    private bool haSidoActivado=false;
+    private bool haSidoActivado = false;
+    private bool anomaliaResuelta = false;
 
     void Awake()
     {
-        monstruo.SetActive(false);
+        if (monstruo != null)
+            monstruo.SetActive(false);
     }
 
     void OnTriggerEnter(Collider player)
     {
+        if (!player.CompareTag("Player"))
+            return;
+
         Debug.Log("Dentro del rango");
+
         if (!haSidoActivado)
         {
-            monstruo.SetActive(true);
+            if (monstruo != null)
+                monstruo.SetActive(true);
+
             haSidoActivado = true;
         }
     }
+
     void OnTriggerExit(Collider player)
     {
-        monstruo.SetActive(false);
+        if (!player.CompareTag("Player"))
+            return;
+
+        if (monstruo != null)
+            monstruo.SetActive(false);
+
+        if (haSidoActivado && !anomaliaResuelta)
+        {
+            anomaliaResuelta = true;
+
+            if (EstadoNivel.instancia != null)
+            {
+                EstadoNivel.instancia.MarcarAnomaliaResuelta();
+            }
+            else
+            {
+                Debug.LogWarning("No se encontró EstadoNivel en la escena.");
+            }
+        }
     }
 }

@@ -47,5 +47,14 @@ public class ColocarMapa : Interactable
         colocado = true;
 
         Debug.Log("Mapa colocado");
+
+        if (EstadoNivel.instancia != null)
+        {
+            EstadoNivel.instancia.MarcarAnomaliaResuelta();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró EstadoNivel en la escena.");
+        }
     }
 }
