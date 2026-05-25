@@ -114,4 +114,23 @@ public class PlayerInteraction : MonoBehaviour
             viewTimer = 0f;
         }
     }
+
+    public bool estaMirando(GameObject anomalia)
+    {
+        Collider col = anomalia.GetComponent<Collider>();
+
+        Vector3 centro = col != null
+            ? col.bounds.center
+            : anomalia.transform.position;
+
+        Vector3 direccionAnomalia = (centro - transform.position).normalized;
+
+        float angulo = Vector3.Angle(transform.forward, direccionAnomalia);
+
+        if (angulo < 45f)
+        {
+            return true;
+        }
+        return false;
+    }
 }
