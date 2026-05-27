@@ -13,6 +13,9 @@ public class LimpiarCaraVentana : Interactable
     [Header("Ajustes de limpieza")]
     public float tiempoLimpieza = 4f;
 
+    [Header("Audio")]
+    public AudioSource audioLimpiar;
+
     private Material materialInterior;
     private Material materialExterior;
 
@@ -25,6 +28,9 @@ public class LimpiarCaraVentana : Interactable
 
     void Start()
     {
+        if (audioLimpiar == null)
+            audioLimpiar = GetComponent<AudioSource>();
+
         if (rendererCaraInterior != null)
         {
             materialInterior = rendererCaraInterior.material;
@@ -40,7 +46,8 @@ public class LimpiarCaraVentana : Interactable
 
     public override void Interact()
     {
-        if (limpiezaCompletada) return;
+        if (limpiezaCompletada)
+            return;
 
         if (GameManager.instance == null)
         {
@@ -55,13 +62,17 @@ public class LimpiarCaraVentana : Interactable
         else
         {
             puedeLimpiar = false;
+            DetenerSonidoLimpieza();
             Debug.Log("Te falta el spray o el trapo");
         }
     }
 
     public override void HoldInteract()
     {
-        if (!puedeLimpiar || limpiezaCompletada) return;
+        if (!puedeLimpiar || limpiezaCompletada)
+            return;
+
+        ReproducirSonidoLimpieza();
 
         progresoLimpieza += Time.deltaTime;
 
@@ -71,9 +82,13 @@ public class LimpiarCaraVentana : Interactable
 
     public override void HoldCompleted()
     {
-        if (!puedeLimpiar || limpiezaCompletada) return;
+        if (!puedeLimpiar || limpiezaCompletada)
+            return;
 
         limpiezaCompletada = true;
+
+        DetenerSonidoLimpieza();
+
         Debug.Log("Cara limpiada completamente");
 
         if (caraInterior != null)
@@ -87,7 +102,10 @@ public class LimpiarCaraVentana : Interactable
 
     public void ResetLimpieza()
     {
-        if (limpiezaCompletada) return;
+        if (limpiezaCompletada)
+            return;
+
+        DetenerSonidoLimpieza();
 
         progresoLimpieza = 0f;
         puedeLimpiar = false;
@@ -108,6 +126,22 @@ public class LimpiarCaraVentana : Interactable
             Color c = colorExteriorInicial;
             c.a = alpha;
             materialExterior.color = c;
+        }
+    }
+
+    private void ReproducirSonidoLimpieza()
+    {
+        if (audioLimpiar != null && !audioLimpiar.isPlaying)
+        {
+            audioLimpiar.Play();
+        }
+    }
+
+    private void DetenerSonidoLimpieza()
+    {
+        if (audioLimpiar != null && audioLimpiar.isPlaying)
+        {
+            audioLimpiar.Stop();
         }
     }
 }

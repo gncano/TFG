@@ -2,23 +2,33 @@ using UnityEngine;
 
 public class RadiocasetteInteractable : Interactable
 {
-    public AudioSource audioSource;
+    [Header("Audio de la anomalía")]
+    public AudioSource audioPasos;
+
+    [Header("Audio al apagar")]
+    public AudioSource audioApagado;
+
     private bool apagado = false;
 
     public override void Interact()
     {
-        if (apagado) return;
+        if (apagado)
+            return;
 
         apagado = true;
 
-        if (audioSource != null)
+        if (audioPasos != null)
         {
-            audioSource.Stop();
+            audioPasos.Stop();
+        }
+
+        if (audioApagado != null)
+        {
+            audioApagado.Play();
         }
 
         Debug.Log("Radiocasette apagado");
 
         MarcarNivelComoResuelto();
-
     }
 }

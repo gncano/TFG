@@ -474,7 +474,7 @@ MonoBehaviour:
     atrapado en un extra\xF1o bucle dentro de la estaci\xF3n de metro...\n\nEl nivel
     0 ser\xE1 tu referencia: obs\xE9rvalo con atenci\xF3n y memoriza cada detalle.\n\nEn
     las siguientes rondas, algo puede cambiar... o no. Detecta y resuelve las anomal\xEDas
-    antes de avanzar. Si te equivocas, el turno volver\xE1 a comenzar.\""
+    antes de avanzar. Si te equivocas, el turno de noche volver\xE1 a comenzar.\""
   velocidadEscritura: 0.035
   velocidadParpadeo: 0.6
   audioTren: {fileID: 2009201870}

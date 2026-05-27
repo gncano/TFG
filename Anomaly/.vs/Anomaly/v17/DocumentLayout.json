@@ -3,11 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\limpiarcaraventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\limpiarcaraventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\niveltelevisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\niveltelevisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\mandotvinteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mandotvinteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\televisioninteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\televisioninteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\triggeraparicionnina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggeraparicionnina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\radiocassetteinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\radiocassetteinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|c:\\users\\maria8\\documents\\github\\tfg\\anomaly\\assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|c:\\users\\maria8\\documents\\github\\tfg\\anomaly\\assets\\scripts\\intromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\intromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\intromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,14 +75,6 @@
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggersalidanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\triggeraparicionnina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggeraparicionnina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\televisioninteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\televisioninteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\sonidopuerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sonidopuerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\recogercrucifijo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\radiocassetteinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\radiocassetteinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\puertavagondoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puertavagondoble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\notapantallamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\niveltelevisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\niveltelevisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\nivel15payasomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nivel15payasomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -137,14 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\maquinaexpendedora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maquinaexpendedora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\mandotvinteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mandotvinteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\limpiarcaraventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\limpiarcaraventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\inventariojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -190,11 +190,161 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MandoTVInteractuable.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\MandoTVInteractuable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MandoTVInteractuable.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\MandoTVInteractuable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MandoTVInteractuable.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:50:14.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NivelTelevisionManager.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\NivelTelevisionManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NivelTelevisionManager.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\NivelTelevisionManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NivelTelevisionManager.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAcwKEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:51:26.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelevisionInteractuable.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TelevisionInteractuable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TelevisionInteractuable.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TelevisionInteractuable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TelevisionInteractuable.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAA2wNQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:54:28.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LimpiarCaraVentana.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\LimpiarCaraVentana.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LimpiarCaraVentana.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\LimpiarCaraVentana.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LimpiarCaraVentana.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAmwJIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:16:11.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TriggerAparicionNina.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerAparicionNina.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerAparicionNina.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerAparicionNina.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TriggerAparicionNina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:54:38.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RadiocassetteInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RadiocassetteInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RadiocassetteInteractable.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RadiocassetteInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RadiocassetteInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:13:36.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfirmarSalidaNivel.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAxwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:48:27.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameFlowManager.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\GameFlowManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameFlowManager.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\GameFlowManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameFlowManager.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAkwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:49:01.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EstadoNivel.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\EstadoNivel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EstadoNivel.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\EstadoNivel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EstadoNivel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:48:50.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AnomaliaPapelera.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\AnomaliaPapelera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnomaliaPapelera.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\AnomaliaPapelera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnomaliaPapelera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:14:54.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Interactable.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\Interactable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\Interactable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T13:03:30.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IntroManager.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\IntroManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IntroManager.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\IntroManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IntroManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwMYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T12:12:59.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PauseManager.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\PauseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseManager.cs",
@@ -207,80 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IntroManager.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\IntroManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\IntroManager.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\IntroManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\IntroManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwMYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T12:12:59.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Interactable.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\Interactable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\Interactable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interactable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:03:30.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnomaliaPapelera.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\AnomaliaPapelera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnomaliaPapelera.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\AnomaliaPapelera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnomaliaPapelera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:14:54.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EstadoNivel.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\EstadoNivel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EstadoNivel.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\EstadoNivel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EstadoNivel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:48:50.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameFlowManager.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\GameFlowManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameFlowManager.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\GameFlowManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameFlowManager.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAkwHgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:49:01.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConfirmarSalidaNivel.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAxwDcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:48:27.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ColocarMapa.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ColocarMapa.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ColocarMapa.cs",
@@ -292,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "PlayerInteraction.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\PlayerInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInteraction.cs",
@@ -304,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "SiluetaFantasma.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\SiluetaFantasma.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SiluetaFantasma.cs",
@@ -316,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "SonidoPuerta.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\SonidoPuerta.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SonidoPuerta.cs",
@@ -328,31 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TelevisionInteractuable.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TelevisionInteractuable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TelevisionInteractuable.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TelevisionInteractuable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TelevisionInteractuable.cs",
-              "ViewState": "AgIAANAAAAAAAAAAAAAYwNwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:54:28.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TriggerAparicionNina.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerAparicionNina.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerAparicionNina.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerAparicionNina.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerAparicionNina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:54:38.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "TriggerSalidaNivel.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerSalidaNivel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerSalidaNivel.cs",
@@ -364,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "TriggerSiluetas.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerSiluetas.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerSiluetas.cs",
@@ -376,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "TriggerVagon.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerVagon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerVagon.cs",
@@ -388,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "ResolverJigsaw.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ResolverJigsaw.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ResolverJigsaw.cs",
@@ -400,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "RecogerTrapo.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RecogerTrapo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RecogerTrapo.cs",
@@ -412,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "RecogerSpray.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RecogerSpray.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RecogerSpray.cs",
@@ -424,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "RecogerMonedas.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RecogerMonedas.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RecogerMonedas.cs",
@@ -436,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "RecogerMapa.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RecogerMapa.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RecogerMapa.cs",
@@ -448,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "RecogerLlave.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RecogerLlave.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RecogerLlave.cs",
@@ -460,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "RecogerCrucifijo.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RecogerCrucifijo.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RecogerCrucifijo.cs",
@@ -472,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "PuertaVagonDoble.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\PuertaVagonDoble.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PuertaVagonDoble.cs",
@@ -484,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -496,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "NotaInteractuable.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\NotaInteractuable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NotaInteractuable.cs",
@@ -508,19 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RadiocassetteInteractable.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RadiocassetteInteractable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RadiocassetteInteractable.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\RadiocassetteInteractable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RadiocassetteInteractable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:13:36.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "PayasoFinalInteractuable.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\PayasoFinalInteractuable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PayasoFinalInteractuable.cs",
@@ -532,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "NotaPantallaManager.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\NotaPantallaManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NotaPantallaManager.cs",
@@ -544,19 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "NivelTelevisionManager.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\NivelTelevisionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NivelTelevisionManager.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\NivelTelevisionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NivelTelevisionManager.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAgwJEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:51:26.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Nivel15PayasoManager.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\Nivel15PayasoManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Nivel15PayasoManager.cs",
@@ -568,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
@@ -580,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Monstruo1.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\Monstruo1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Monstruo1.cs",
@@ -589,18 +618,6 @@
               "ViewState": "AgIAABEAAAAAAAAAAAAkwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-25T13:50:54.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "MandoTVInteractuable.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\MandoTVInteractuable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MandoTVInteractuable.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\MandoTVInteractuable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MandoTVInteractuable.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:50:14.433Z"
             },
             {
               "$type": "Document",
@@ -617,18 +634,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "LimpiarCaraVentana.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\LimpiarCaraVentana.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LimpiarCaraVentana.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\LimpiarCaraVentana.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LimpiarCaraVentana.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAgwFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:16:11.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
               "Title": "MaquinaExpendedora.cs",
               "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\MaquinaExpendedora.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MaquinaExpendedora.cs",
