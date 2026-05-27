@@ -4,6 +4,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
+
 public class AnomaliaStalker : MonoBehaviour
 {
 
@@ -15,6 +16,7 @@ public class AnomaliaStalker : MonoBehaviour
     private NavMeshAgent agent;
     public GameObject gameOverUI;
     private bool muerto = false;
+    private AudioSource audioSource;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,12 +24,14 @@ public class AnomaliaStalker : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(InicioRetrasado());
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     IEnumerator InicioRetrasado()
     {
         yield return new WaitForSeconds(8f);
         puedeMoverse = true;
+        audioSource.Play();
     }
 
     // Update is called once per frame
