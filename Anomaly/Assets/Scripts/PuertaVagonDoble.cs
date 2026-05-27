@@ -29,7 +29,7 @@ public class PuertaVagonDoble : Interactable
 
     public bool abierta = false;
     private bool moviendo = false;
-    private static bool eventoLanzado = false;
+    private bool eventoLanzado = false;
     public override void Interact()
     {
         if (puertaIzquierda == null || puertaDerecha == null)
@@ -108,5 +108,47 @@ public class PuertaVagonDoble : Interactable
         }
 
         Debug.Log("Evento del triciclo/Jigsaw activado");
+    }
+
+    public void CerrarPuertas()
+    {
+        if (puertaIzquierda == null || puertaDerecha == null)
+            return;
+
+        if (moviendo)
+            return;
+
+        StartCoroutine(CerrarPuertasCoroutine());
+    }
+
+    private IEnumerator CerrarPuertasCoroutine()
+    {
+        moviendo = true;
+
+        while (Vector3.Distance(puertaIzquierda.localPosition, posicionCerradaIzquierda) > 0.01f ||
+               Vector3.Distance(puertaDerecha.localPosition, posicionCerradaDerecha) > 0.01f)
+        {
+            puertaIzquierda.localPosition = Vector3.Lerp(
+                puertaIzquierda.localPosition,
+                posicionCerradaIzquierda,
+                velocidad * Time.deltaTime
+            );
+
+            puertaDerecha.localPosition = Vector3.Lerp(
+                puertaDerecha.localPosition,
+                posicionCerradaDerecha,
+                velocidad * Time.deltaTime
+            );
+
+            yield return null;
+        }
+
+        puertaIzquierda.localPosition = posicionCerradaIzquierda;
+        puertaDerecha.localPosition = posicionCerradaDerecha;
+
+        abierta = false;
+        moviendo = false;
+
+        Debug.Log("Puertas cerradas");
     }
 }

@@ -6,6 +6,7 @@ public class InventarioJugador : MonoBehaviour
 
     public bool tieneLlave = false;
     public bool tieneCrucifijo = false;
+    public bool tieneMapa = false;
 
     private void Awake()
     {

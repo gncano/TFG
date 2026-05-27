@@ -81,6 +81,8 @@ public class LimpiarCaraVentana : Interactable
 
         if (caraExterior != null)
             Destroy(caraExterior);
+
+        MarcarNivelComoResuelto();
     }
 
     public void ResetLimpieza()

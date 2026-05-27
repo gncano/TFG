@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class AnomaliaBurger : Interactable
 {
+    private bool resuelta = false;
+
     public override void Interact(GameObject player)
     {
+        if (resuelta)
+            return;
+
         Debug.Log("Comida");
         GameObject realPlayer = Camera.main.transform.root.gameObject;
 
@@ -15,6 +20,9 @@ public class AnomaliaBurger : Interactable
             cc.radius = 0.5f;
         }
 
+        resuelta = true;
+
+        MarcarNivelComoResuelto();
         Destroy(gameObject);
     }
 }

@@ -17,6 +17,8 @@ public class AnomaliaPapelera : Interactable
             resuelta = true;
 
             Debug.Log("Papelera colocada correctamente");
+
+            MarcarNivelComoResuelto();
         }
     }
 }

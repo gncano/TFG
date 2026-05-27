@@ -14,6 +14,9 @@ public class PlayerInteraction : MonoBehaviour
     private float viewTimer = 0f;
     public float viewTimerRequired = 10f;
 
+    [Header("Depuración")]
+    public bool mostrarDebugRaycast = false;
+
     private Interactable currentInteractable;
 
     void Update()
@@ -25,13 +28,15 @@ public class PlayerInteraction : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, interactionDistance, interactionLayer))
         {
-            Debug.Log("Raycast golpea a: " + hit.collider.name);
+            if (mostrarDebugRaycast)
+            {
+                Debug.Log("Raycast golpea a: " + hit.collider.name);
+            }
 
             Interactable interactable = hit.collider.GetComponent<Interactable>();
 
             if (interactable != null)
             {
-                // Si estamos mirando a otro objeto distinto, reiniciamos el anterior si era limpiable
                 if (currentInteractable != null && currentInteractable != interactable)
                 {
                     LimpiarCaraVentana limpiarAnterior = currentInteractable as LimpiarCaraVentana;

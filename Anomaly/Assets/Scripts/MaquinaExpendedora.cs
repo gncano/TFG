@@ -130,5 +130,7 @@ public class MaquinaExpendedora : Interactable
         {
             luzMaquina.enabled = false;
         }
+
+        MarcarNivelComoResuelto();
     }
 }

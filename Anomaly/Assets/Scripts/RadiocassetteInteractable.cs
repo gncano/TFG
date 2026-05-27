@@ -17,5 +17,8 @@ public class RadiocasetteInteractable : Interactable
         }
 
         Debug.Log("Radiocasette apagado");
+
+        MarcarNivelComoResuelto();
+
     }
 }
