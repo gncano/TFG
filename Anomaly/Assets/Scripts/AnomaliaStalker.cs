@@ -35,6 +35,10 @@ public class AnomaliaStalker : MonoBehaviour
     {
         if (!puedeMoverse) return;
 
+        if (!agent.isOnNavMesh)
+                {
+                    return;
+                }
         if (!camara.estaMirando(gameObject))
         {
             agent.isStopped = false;
