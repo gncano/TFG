@@ -54,7 +54,7 @@ public class AnomaliaStalker : MonoBehaviour
             if (Keyboard.current.anyKey.wasPressedThisFrame)
             {
                 Time.timeScale = 1f;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene("0-Inicio");
             }
 
             return;
