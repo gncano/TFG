@@ -6207,14 +6207,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7164118397093317141, guid: 5e931bcff22cf1f45944d7a33b22c887, type: 3}
-      propertyPath: interactionDistance
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7164118397093317141, guid: 5e931bcff22cf1f45944d7a33b22c887, type: 3}
-      propertyPath: interactionLayer.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 7387219353221971312, guid: 5e931bcff22cf1f45944d7a33b22c887, type: 3}
       propertyPath: m_Name
       value: PlayerEnano

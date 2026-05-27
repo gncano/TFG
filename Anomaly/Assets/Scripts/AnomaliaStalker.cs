@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
+using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class AnomaliaStalker : MonoBehaviour
 {
@@ -11,9 +13,11 @@ public class AnomaliaStalker : MonoBehaviour
     private bool puedeMoverse = false;
     private Animator animator;
     private NavMeshAgent agent;
+    public GameObject gameOverUI;
+    private bool muerto = false;
 
-// Start is called once before the first execution of Update after the MonoBehaviour is created
-void Start()
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(InicioRetrasado());
@@ -23,7 +27,6 @@ void Start()
     IEnumerator InicioRetrasado()
     {
         yield return new WaitForSeconds(8f);
-
         puedeMoverse = true;
     }
 
@@ -41,5 +44,33 @@ void Start()
         {
             agent.isStopped = true;
         }
+
+        if (muerto)
+        {
+            if (Keyboard.current.anyKey.wasPressedThisFrame)
+            {
+                Time.timeScale = 1f;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+
+            return;
+        }
+    }
+
+    void OnTriggerEnter(Collider player)
+    {
+        Debug.Log("monstruo golpea jugador");
+        if (player.CompareTag("Player") && !muerto)
+        {
+            Morir();
+        }
+    }
+
+    void Morir()
+    {
+        muerto=true;
+
+        gameOverUI.SetActive(true);
+        agent.isStopped=true;
     }
 }
