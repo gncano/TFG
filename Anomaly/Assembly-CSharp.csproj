@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\RecogerCrucifijo.cs" />
     <Compile Include="Assets\Scripts\ResolverJigsaw.cs" />
+    <Compile Include="Assets\Scripts\PauseManager.cs" />
     <Compile Include="Assets\Scripts\GloboDesinfladoInteractuable.cs" />
     <Compile Include="Assets\Scripts\RecogerSpray.cs" />
     <Compile Include="Assets\Scripts\TriggerSalidaNivel.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Assets\Scripts\TriggerVagon.cs" />
     <Compile Include="Assets\Scripts\RecogerMapa.cs" />
     <Compile Include="Assets\Scripts\NotaPantallaManager.cs" />
+    <Compile Include="Assets\Scripts\IntroManager.cs" />
     <Compile Include="Assets\Scripts\GloboInfladoInteractuable.cs" />
     <Compile Include="Assets\Scripts\NivelTelevisionManager.cs" />
     <Compile Include="Assets\Scripts\Nivel15PayasoManager.cs" />

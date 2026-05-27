@@ -18,15 +18,7 @@ public class AnomaliaCartel : Interactable
             Debug.Log("Cartel colocado correctamente");
 
             resuelta = true;
-
-            if (EstadoNivel.instancia != null)
-            {
-                EstadoNivel.instancia.MarcarAnomaliaResuelta();
-            }
-            else
-            {
-                Debug.LogWarning("No se encontró EstadoNivel en la escena.");
-            }
+            MarcarNivelComoResuelto();
         }
     }
 }

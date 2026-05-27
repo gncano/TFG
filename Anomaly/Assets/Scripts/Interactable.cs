@@ -12,7 +12,6 @@ public class Interactable : MonoBehaviour
 
     public virtual void Interact(GameObject player)
     {
-        Debug.Log("Interacción simple en " + gameObject.name);
         Interact();
     }
 
@@ -24,7 +23,6 @@ public class Interactable : MonoBehaviour
     // Mantener pulsado 
     public virtual void HoldInteract()
     {
-       
     }
 
     // Cuando se completa el tiempo de hold
@@ -38,4 +36,15 @@ public class Interactable : MonoBehaviour
     {
     }
 
+    protected void MarcarNivelComoResuelto()
+    {
+        if (EstadoNivel.instancia != null)
+        {
+            EstadoNivel.instancia.MarcarAnomaliaResuelta();
+        }
+        else
+        {
+            Debug.LogWarning("No se encontró EstadoNivel en la escena.");
+        }
+    }
 }

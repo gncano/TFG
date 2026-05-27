@@ -131,13 +131,6 @@ public class MaquinaExpendedora : Interactable
             luzMaquina.enabled = false;
         }
 
-        if (EstadoNivel.instancia != null)
-        {
-            EstadoNivel.instancia.MarcarAnomaliaResuelta();
-        }
-        else
-        {
-            Debug.LogWarning("No se encontró EstadoNivel en la escena.");
-        }
+        MarcarNivelComoResuelto();
     }
 }

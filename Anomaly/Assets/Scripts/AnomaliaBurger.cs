@@ -26,15 +26,7 @@ public class AnomaliaBurger : Interactable
 
         resuelta = true;
 
-        if (EstadoNivel.instancia != null)
-        {
-            EstadoNivel.instancia.MarcarAnomaliaResuelta();
-        }
-        else
-        {
-            Debug.LogWarning("No se encontró EstadoNivel en la escena.");
-        }
-
+        MarcarNivelComoResuelto();
         Destroy(gameObject);
     }
 }
