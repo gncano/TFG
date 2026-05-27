@@ -14,7 +14,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1136199453800288114, guid: 3a1c5c29e6d76ff4bba8c6b65bb38cad, type: 3}
       propertyPath: interactionDistance
-      value: 0.9
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136199453800288114, guid: 3a1c5c29e6d76ff4bba8c6b65bb38cad, type: 3}
+      propertyPath: interactionLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 1442811918580698798, guid: 3a1c5c29e6d76ff4bba8c6b65bb38cad, type: 3}
       propertyPath: m_LocalScale.x
