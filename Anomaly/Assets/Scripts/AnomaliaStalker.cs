@@ -4,45 +4,86 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
-
 public class AnomaliaStalker : MonoBehaviour
 {
-
+    [Header("Referencias")]
     public PlayerInteraction camara;
     public Transform player;
+    public GameObject gameOverUI;
+
+    [Header("Movimiento")]
     public float velocidad = 5f;
+    public float retrasoInicio = 1.2f;
+
     private bool puedeMoverse = false;
+    private bool muerto = false;
+
     private Animator animator;
     private NavMeshAgent agent;
-    public GameObject gameOverUI;
-    private bool muerto = false;
     private AudioSource audioSource;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        StartCoroutine(InicioRetrasado());
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+
+        if (gameOverUI != null)
+            gameOverUI.SetActive(false);
+
+        if (agent != null)
+        {
+            agent.speed = velocidad;
+            agent.isStopped = true;
+        }
+
+        // Este nivel se supera sobreviviendo hasta la salida.
+        // Si el monstruo te alcanza, el propio script te manda al nivel 0.
+        if (EstadoNivel.instancia != null)
+        {
+            EstadoNivel.instancia.MarcarAnomaliaResuelta();
+        }
+        else
+        {
+            Debug.LogWarning("AnomaliaStalker: no se encontró EstadoNivel en la escena.");
+        }
+
+        StartCoroutine(InicioRetrasado());
     }
 
     IEnumerator InicioRetrasado()
     {
-        yield return new WaitForSeconds(8f);
+        yield return new WaitForSeconds(retrasoInicio);
+
         puedeMoverse = true;
-        audioSource.Play();
+
+        if (audioSource != null)
+            audioSource.Play();
+
+        Debug.Log("AnomaliaStalker: el monstruo empieza a perseguir.");
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (!puedeMoverse) return;
+        if (muerto)
+        {
+            if (Keyboard.current != null && Keyboard.current.anyKey.wasPressedThisFrame)
+            {
+                VolverAlNivel0();
+            }
+
+            return;
+        }
+
+        if (!puedeMoverse)
+            return;
+
+        if (agent == null || player == null || camara == null)
+            return;
 
         if (!agent.isOnNavMesh)
-                {
-                    return;
-                }
+            return;
+
         if (!camara.estaMirando(gameObject))
         {
             agent.isStopped = false;
@@ -52,33 +93,48 @@ public class AnomaliaStalker : MonoBehaviour
         {
             agent.isStopped = true;
         }
-
-        if (muerto)
-        {
-            if (Keyboard.current.anyKey.wasPressedThisFrame)
-            {
-                Time.timeScale = 1f;
-                SceneManager.LoadScene("0-Inicio");
-            }
-
-            return;
-        }
     }
 
-    void OnTriggerEnter(Collider player)
+    void OnTriggerEnter(Collider other)
     {
-        Debug.Log("monstruo golpea jugador");
-        if (player.CompareTag("Player") && !muerto)
+        if (muerto)
+            return;
+
+        if (other.CompareTag("Player"))
         {
+            Debug.Log("El monstruo ha alcanzado al jugador.");
             Morir();
         }
     }
 
     void Morir()
     {
-        muerto=true;
+        muerto = true;
 
-        gameOverUI.SetActive(true);
-        agent.isStopped=true;
+        if (agent != null)
+            agent.isStopped = true;
+
+        if (gameOverUI != null)
+            gameOverUI.SetActive(true);
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        Debug.Log("Has muerto. Pulsa cualquier tecla para volver al nivel 0.");
+    }
+
+    private void VolverAlNivel0()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        if (GameFlowManager.instancia != null)
+        {
+            GameFlowManager.instancia.VolverAlNivel0PorFallo();
+        }
+        else
+        {
+            SceneManager.LoadScene("0-Inicio");
+        }
     }
 }
