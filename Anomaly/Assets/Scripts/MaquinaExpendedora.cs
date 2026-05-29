@@ -19,9 +19,9 @@ public class MaquinaExpendedora : Interactable
     public float tiempoMinimoParaMonedas = 0.2f;
 
     private bool usada = false;
+    private bool secuenciaIniciada = false;
     private bool sonidoMonedasReproducido = false;
     private float tiempoManteniendo = 0f;
-
 
     public override void Interact()
     {
@@ -30,7 +30,14 @@ public class MaquinaExpendedora : Interactable
 
     public override void HoldInteract()
     {
-        if (usada) return;
+        if (usada || secuenciaIniciada)
+            return;
+
+        if (GameManager.instance == null)
+        {
+            Debug.LogWarning("No hay GameManager en la escena.");
+            return;
+        }
 
         if (!GameManager.instance.tieneMonedas)
         {
@@ -39,21 +46,58 @@ public class MaquinaExpendedora : Interactable
 
         tiempoManteniendo += Time.deltaTime;
 
-
-        // Solo reproducir monedas si realmente se está manteniendo un poco
-        if (!sonidoMonedasReproducido &&
-            tiempoManteniendo >= tiempoMinimoParaMonedas &&
-            audioSource != null &&
-            sonidoMonedas != null)
+        if (!sonidoMonedasReproducido && tiempoManteniendo >= tiempoMinimoParaMonedas)
         {
-            audioSource.PlayOneShot(sonidoMonedas);
             sonidoMonedasReproducido = true;
+
+            if (audioSource != null && sonidoMonedas != null)
+            {
+                audioSource.PlayOneShot(sonidoMonedas);
+            }
+
+            UsarMaquina();
         }
     }
 
     public override void HoldCompleted()
     {
-        if (usada) return;
+        if (usada || secuenciaIniciada)
+            return;
+
+        if (GameManager.instance == null)
+        {
+            Debug.LogWarning("No hay GameManager en la escena.");
+            return;
+        }
+
+        if (!GameManager.instance.tieneMonedas)
+        {
+            Debug.Log("No tienes monedas");
+            return;
+        }
+
+        UsarMaquina();
+    }
+
+    public override void ResetHold()
+    {
+        if (usada || secuenciaIniciada)
+            return;
+
+        tiempoManteniendo = 0f;
+        sonidoMonedasReproducido = false;
+    }
+
+    private void UsarMaquina()
+    {
+        if (usada || secuenciaIniciada)
+            return;
+
+        if (GameManager.instance == null)
+        {
+            Debug.LogWarning("No hay GameManager en la escena.");
+            return;
+        }
 
         if (!GameManager.instance.tieneMonedas)
         {
@@ -62,26 +106,17 @@ public class MaquinaExpendedora : Interactable
         }
 
         usada = true;
+        secuenciaIniciada = true;
 
         Debug.Log("Máquina usada correctamente");
 
-        // Gastar las monedas al usar la máquina
         GameManager.instance.tieneMonedas = false;
 
         StartCoroutine(ActivarMaquina());
     }
 
-    public override void ResetHold()
-    {
-        if (usada) return;
-
-        tiempoManteniendo = 0f;
-        sonidoMonedasReproducido = false;
-    }
-
     IEnumerator ActivarMaquina()
     {
-        // Sonido máquina expendedora al instante
         if (audioSource != null && sonidoMaquina != null)
         {
             audioSource.PlayOneShot(sonidoMaquina);
@@ -113,16 +148,13 @@ public class MaquinaExpendedora : Interactable
             luzMaquina.intensity = 8f;
         }
 
-        // Espera un poco antes de beber
         yield return new WaitForSeconds(0.8f);
 
-        // Sonido de beber
         if (audioSource != null && sonidoBeber != null)
         {
             audioSource.PlayOneShot(sonidoBeber);
         }
 
-        // Mantener la luz encendida un poco más
         yield return new WaitForSeconds(duracionLuz);
 
         // APAGADO FINAL

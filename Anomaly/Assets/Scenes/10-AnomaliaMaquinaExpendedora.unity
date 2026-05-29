@@ -2984,7 +2984,7 @@ MonoBehaviour:
   sonidoMaquina: {fileID: 8300000, guid: 085b742a8f6c51b4c965d95ab3e62fa1, type: 3}
   sonidoBeber: {fileID: 8300000, guid: 0914567c65058724fbc5a1588ac073ce, type: 3}
   duracionLuz: 3
-  tiempoMinimoParaMonedas: 0.2
+  tiempoMinimoParaMonedas: 0.4
 --- !u!65 &785852785
 BoxCollider:
   m_ObjectHideFlags: 0
