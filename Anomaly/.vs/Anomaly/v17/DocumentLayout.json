@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|c:\\users\\maria8\\documents\\github\\tfg\\anomaly\\assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|c:\\users\\maria8\\documents\\github\\tfg\\anomaly\\assets\\scripts\\confirmarsalidanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\confirmarsalidanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PauseManager.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\PauseManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseManager.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\PauseManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T17:51:31.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfirmarSalidaNivel.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwGgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T17:18:11.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

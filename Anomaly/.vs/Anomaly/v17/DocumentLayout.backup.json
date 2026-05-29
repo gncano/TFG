@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\televisioninteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\televisioninteractuable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\triggersalidanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggersalidanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\triggervagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggervagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\triggersiluetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggersiluetas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\triggeraparicionnina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\triggeraparicionnina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\assets\\scripts\\textofinalprogresivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\textofinalprogresivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|c:\\users\\maria8\\documents\\github\\tfg\\anomaly\\assets\\scripts\\confirmarsalidanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76911912-4482-4AB4-E643-9B8060A2FE63}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\confirmarsalidanivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,81 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TriggerSalidaNivel.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerSalidaNivel.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerSalidaNivel.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerSalidaNivel.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerSalidaNivel.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAYwDQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:54:47.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TelevisionInteractuable.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TelevisionInteractuable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TelevisionInteractuable.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TelevisionInteractuable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TelevisionInteractuable.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwIoAAAAQAAAAAAAAAA==",
+              "Title": "ConfirmarSalidaNivel.cs",
+              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ConfirmarSalidaNivel.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwGgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:54:28.67Z",
+              "WhenOpened": "2026-05-29T17:18:11.348Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TriggerVagon.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerVagon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerVagon.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerVagon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerVagon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:55:13.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TriggerAparicionNina.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerAparicionNina.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerAparicionNina.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerAparicionNina.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerAparicionNina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:54:38.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TriggerSiluetas.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerSiluetas.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TriggerSiluetas.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TriggerSiluetas.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TriggerSiluetas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T13:55:01.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TextoFinalProgresivo.cs",
-              "DocumentMoniker": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TextoFinalProgresivo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TextoFinalProgresivo.cs",
-              "ToolTip": "C:\\Users\\Maria8\\Documents\\GitHub\\TFG\\Anomaly\\Assets\\Scripts\\TextoFinalProgresivo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TextoFinalProgresivo.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T08:37:40.925Z"
             }
           ]
         }

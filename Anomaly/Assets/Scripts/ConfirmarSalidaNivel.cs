@@ -38,8 +38,17 @@ public class ConfirmarSalidaNivel : MonoBehaviour
 
         panelAbierto = true;
 
+        Debug.Log("Intentando abrir panel. Canvas asignado: " + canvasConfirmacion);
+
         if (canvasConfirmacion != null)
+        {
             canvasConfirmacion.SetActive(true);
+            Debug.Log("CanvasConfirmacion activo: " + canvasConfirmacion.activeSelf);
+        }
+        else
+        {
+            Debug.LogError("CanvasConfirmacion NO está asignado en ConfirmarSalidaNivel.");
+        }
 
         BloquearJugador(true);
 
