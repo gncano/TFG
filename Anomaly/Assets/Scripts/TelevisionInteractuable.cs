@@ -116,27 +116,27 @@ public class TelevisionInteractuable : Interactable
 
         Debug.Log("Nivel TV: empieza secuencia de la televisión.");
 
-        // Ruido corto
+        // Ruido
         yield return StartCoroutine(MostrarRuidoCorto(true));
 
-        // Pozo sin sonido de ruido
+        // Pozo sin
         PararRuido();
 
         CambiarImagenPantalla(imagenPozo, true);
 
         yield return new WaitForSeconds(tiempoImagenPozo);
 
-        // Ruido corto
+        // Ruido
         yield return StartCoroutine(MostrarRuidoCorto(true));
 
-        // Pozo + niña sin sonido de ruido
+        // Pozo + niña
         PararRuido();
 
         CambiarImagenPantalla(imagenPozoNina, true);
 
         yield return new WaitForSeconds(tiempoImagenPozoNina);
 
-        // Ruido corto
+        // Ruido
         yield return StartCoroutine(MostrarRuidoCorto(true));
 
         // Apagar tele

@@ -23,9 +23,9 @@ public class MaquinaExpendedora : Interactable
     private bool sonidoMonedasReproducido = false;
     private float tiempoManteniendo = 0f;
 
-    public override void Interact()
+    public override void Interact() // No hacemos nada al pulsar una vez
     {
-        // No hacemos nada al pulsar una vez
+
     }
 
     public override void HoldInteract()

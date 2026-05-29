@@ -67,7 +67,6 @@ public class PlayerInteraction : MonoBehaviour
                 }
                 else
                 {
-                    // Si suelta la E, reinicia la limpieza si era la cara
                     LimpiarCaraVentana limpiarCara = interactable as LimpiarCaraVentana;
                     if (limpiarCara != null)
                     {
@@ -87,7 +86,6 @@ public class PlayerInteraction : MonoBehaviour
             }
             else
             {
-                // Si deja de mirar un interactuable, reinicia la limpieza si era la cara
                 if (currentInteractable != null)
                 {
                     LimpiarCaraVentana limpiarCara = currentInteractable as LimpiarCaraVentana;
@@ -104,7 +102,6 @@ public class PlayerInteraction : MonoBehaviour
         }
         else
         {
-            // Si no mira a nada, reinicia la limpieza si estaba limpiando la cara
             if (currentInteractable != null)
             {
                 LimpiarCaraVentana limpiarCara = currentInteractable as LimpiarCaraVentana;

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    public float holdTime = 2f; // valor por defecto
+    public float holdTime = 2f;
 
     // Interacción normal
     public virtual void Interact()
@@ -25,7 +25,7 @@ public class Interactable : MonoBehaviour
     {
     }
 
-    // Cuando se completa el tiempo de hold
+    // Cuando se completa el tiempo
     public virtual void HoldCompleted()
     {
         Debug.Log("Interacción completa en " + gameObject.name);
